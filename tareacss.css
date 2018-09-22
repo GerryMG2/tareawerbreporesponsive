@@ -1,0 +1,119 @@
+
+body{
+    margin: 0;
+    height: 100%;
+    background: #202024;
+}
+
+.headerclass{
+    position: relative;
+    height: 560px;
+    overflow: hidden;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+.videoheader{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:0;
+}
+
+.textobanner{
+    text-align: center;
+    margin-top: 35ex;
+    margin-right: 20%;
+    margin-left: 20%;
+    vertical-align: -webkit-baseline-middle;
+    position: relative;
+    z-index: 1;
+}
+.textobanner > h1,p{
+    color: white;
+}
+.textobanner > h1 {
+    font-size: 3em;
+}
+.textobanner > p{
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+main{
+    display: block;
+    text-align: center;
+}
+
+.multimedia{
+    margin-top: 1em;
+    margin-right: 2%;
+    
+    width: 100%;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: stretch;
+    -webkit-align-items: stretch;
+    -ms-align-items: stretch;
+    align-items: stretch;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.box{
+    border-radius: 4px;
+    margin-bottom: 2em;
+    background: #2c2c32;
+    text-align: center;
+    margin: 0 1em 2em 1em;
+    max-width: 30%;
+    min-width: 400px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.box > img{
+    width: 100%;
+}
+
+.box > h2,p {
+    color: white;
+    display: block;
+    margin: 1em 1em 1em 1em;
+    
+}
+
+.box > input {
+    margin: 1em 1em 1em 1em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: #70c7be;
+    border-radius: 4px;
+    border: 0;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 80%;
+}
